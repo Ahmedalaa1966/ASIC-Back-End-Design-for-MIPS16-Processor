@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : mips_16
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 25 14:25:31 2018
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                           34
+Number of nets:                           387
+Number of cells:                          261
+Number of combinational cells:            239
+Number of sequential cells:                16
+Number of macros:                           0
+Number of buf/inv:                         68
+Number of references:                      28
+
+Combinational area:       18796.624042
+Buf/Inv area:             4246.689916
+Noncombinational area:    19288.191353
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          38084.815394
+Total area:                 undefined
+1

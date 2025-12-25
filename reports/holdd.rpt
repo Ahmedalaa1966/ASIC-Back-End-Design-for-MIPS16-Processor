@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : mips_16
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 25 14:17:06 2018
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : -40/-40/-40
+
+Information: Percent of Arnoldi-based delays =  0.00%
+
+  Startpoint: datamem/ram_reg_101__14_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: datamem/ram_reg_101__14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (propagated)                        0.21       0.21
+  datamem/ram_reg_101__14_/CK (DFF_X1)                    0.00       0.21 r
+  datamem/ram_reg_101__14_/Q (DFF_X1)                     0.09       0.30 r
+  datamem/U4189/ZN (AOI22_X1)                             0.01 &     0.32 f
+  datamem/U4188/ZN (INV_X1)                               0.01 &     0.33 r
+  datamem/ram_reg_101__14_/D (DFF_X1)                     0.00 &     0.33 r
+  data arrival time                                                  0.33
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (propagated)                        0.21       0.21
+  clock uncertainty                                       0.10       0.31
+  datamem/ram_reg_101__14_/CK (DFF_X1)                    0.00       0.31 r
+  library hold time                                       0.02       0.33
+  data required time                                                 0.33
+  --------------------------------------------------------------------------
+  data required time                                                 0.33
+  data arrival time                                                 -0.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
